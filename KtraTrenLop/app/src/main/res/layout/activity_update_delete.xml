@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.UpdateDeleteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="#FF9800">
+
+        <TextView
+            android:text="Sua/Xoa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="22dp"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="#0D4AC5">
+
+        <EditText
+            android:id="@+id/eTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ten cong viec"/>
+        <EditText
+            android:id="@+id/eND"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Noi dung"/>
+        <EditText
+            android:id="@+id/eNgay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngay yyyy/mm/dd"/>
+        <CheckBox
+            android:id="@+id/cbTT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoan thanh"/>
+        <CheckBox
+            android:id="@+id/cbCT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lam chung"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF9800"
+            android:text="Update"/>
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF9800"
+            android:text="Delete"/>
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF9800"
+            android:text="Cancel"/>
+    </LinearLayout>
+
+
+</LinearLayout>

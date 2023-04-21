@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SachTabLayout</string>
+    <string name="fragment_ds">Home</string>
+    <string name="fragment_info">Info</string>
+    <string name="fragment_thongke">Statistics</string>
+    <string-array name="NXB">
+        <item>NXB Su that</item>
+        <item>NXB Giao Duc</item>
+        <item>NXB Kim Dong</item>
+    </string-array>
+</resources>
